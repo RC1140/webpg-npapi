@@ -15,6 +15,8 @@
 #define __func__ __FUNCTION__
 #endif
 
+
+
 FB::VariantMap get_error_map(const std::string& method,
                         gpgme_error_t gpg_error_code,
                         const std::string& error_string,

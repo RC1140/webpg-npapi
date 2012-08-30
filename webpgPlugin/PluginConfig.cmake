@@ -41,7 +41,7 @@ set(FBSTRING_PluginFileName "np${PLUGIN_NAME}-v${FBSTRING_PLUGIN_VERSION}.dll")
 set(FBSTRING_ProductName "WebPG")
 set(FBSTRING_FileExtents "asc")
 set(FBSTRING_PluginName "WebPG")
-set(FBSTRING_MIMEType "application/x-webpg")
+set(FBSTRING_MIMEType "application/x-gmailgpg")
 
 # Uncomment this next line if you're not planning on your plugin doing
 # any drawing:

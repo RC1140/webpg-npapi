@@ -47,10 +47,11 @@ add_windows_plugin(${PROJECT_NAME} SOURCES)
 #    "http://timestamp.verisign.com/scripts/timestamp.dll")
 
 # add library dependencies here; leave ${PLUGIN_INTERNAL_DEPS} there unless you know what you're doing!
+
 target_link_libraries(${PROJECT_NAME}
     ${PLUGIN_INTERNAL_DEPS}
-    libgpg-error-0
-    libgpgme-11
+	libgpgme-11
+	libgpg-error-0
     )
 
 set(WIX_HEAT_FLAGS
@@ -75,3 +76,4 @@ add_wix_installer( ${PLUGIN_NAME}
 #    "${CMAKE_CURRENT_SOURCE_DIR}/sign/certificate.pfx"
 #    "${CMAKE_CURRENT_SOURCE_DIR}/sign/passphrase.txt"
 #    "http://timestamp.verisign.com/scripts/timestamp.dll")
+

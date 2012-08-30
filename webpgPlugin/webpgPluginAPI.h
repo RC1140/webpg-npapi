@@ -7,7 +7,7 @@
 #include "BrowserHost.h"
 #include "webpgPlugin.h"
 
-#include <gpgme.h>
+#include "gpgme.h"
 #include "json/json.h"
 #include "fbjson.h"
 
